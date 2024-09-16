@@ -9,8 +9,9 @@ setup(name='keras-rl',
       author_email='matthiasplappert@me.com',
       url='https://github.com/keras-rl/keras-rl',
       license='MIT',
-      install_requires=['keras>=2.11.0'],
+      install_requires=['keras==2.11.0'],
       extras_require={
-          'gym': ['gym>=0.26.2'],
+          'gym': ['gym==0.26.2'],
+          'tensorflow': ['tensorflow==2.11.0'],
       },
       packages=find_packages())
