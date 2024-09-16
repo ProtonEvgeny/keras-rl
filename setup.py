@@ -12,6 +12,5 @@ setup(name='keras-rl',
       install_requires=['keras==2.11.0'],
       extras_require={
           'gym': ['gym==0.26.2'],
-          'tensorflow': ['tensorflow==2.11.0'],
       },
       packages=find_packages())
